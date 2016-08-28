@@ -6,8 +6,8 @@ export default class Footer extends Component {
     return (
       <div>
         <footer className='footer'>
-          <h2>此demo仅供个人学习使用
-              <a target='_blank' href='https://github.com/zkske121/daily/tree/master/demo/redux-react-director3'>源码地址</a>
+          <h2>花尖墨
+              <a target='_blank' href='http://www.huajianmo.com'>版权所有</a>
           </h2>
         </footer>
     	</div>

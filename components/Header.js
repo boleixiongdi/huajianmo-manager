@@ -60,9 +60,9 @@ class Header extends Component {
           </Menu>
           }
           {!isAuthenticated &&
-          <div>
-            <Link className="tab-item" to={`/login`} activeClassName="active">
-              <Icon type="bars" />登录
+          <div className="login-wap">
+            <Link className="tab-item login-btn" to={`/login`} activeClassName="active">
+              登录
             </Link>
           </div>
           }

@@ -35,7 +35,9 @@ class Login extends Component {
 
     return (
       <div className="content-bg login">
+        <label className="login-label">用户名：</label>
         <input type='text' ref='username' className="login-input"  placeholder='admin@admin.com'/>
+        <label className="login-label">密码：</label>
         <input type='password' ref='password' className="login-input" placeholder='12345678'/>
         <button onClick={(event) => this.handleClick(event)} className="bl-btn">
           登录
