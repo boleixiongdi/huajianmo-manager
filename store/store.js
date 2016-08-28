@@ -8,8 +8,13 @@ import rootReducer from '../reducers'
 
 export function configureStore(history, initialState) {
 
-  const store = createStore(
+  const reducer = combineReducers({
     rootReducer,
+    routing: routerReducer
+  })
+
+  const store = createStore(
+    reducer,
     initialState,
     compose(
       applyMiddleware(
